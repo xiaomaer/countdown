@@ -1,0 +1,81 @@
+
+.time_countdown {
+    padding: 3px 0 10px;
+    background: #fff
+}
+
+.time_countdown .time_title {
+    font-size: 13px;
+    text-align: center;
+    line-height: 28px;
+    color: #000000
+}
+
+.time_countdown .time_title span {
+    position: relative;
+    padding: 0 11px
+}
+
+.time_countdown .time_title span:before, .time_countdown .time_title span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 25px;
+    height: 1px;
+    background: #e3e3e3
+}
+
+.time_countdown .time_title span:before {
+    right: 100%
+}
+
+.time_countdown .time_title span:after {
+    left: 100%
+}
+
+.time_countdown .time_counter {
+    font-size: 12px;
+    text-align: center;
+    color: #999
+}
+
+.time_countdown .time_counter span {
+    margin: 0 1px;
+    display: inline-block;
+    width: 15px;
+    height: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 3px
+}
+
+.time_countdown .theme_one span {
+    color: rgba(255, 255, 255, 0.8);
+    background: #0a1926
+}
+
+.time_countdown .theme_one span.msec {
+    color: #f8dfdf;
+    background-color: #da1b22
+}
+
+.time_countdown .theme_two span {
+    color: #f2f2f2;
+    background-color: #7c7c83
+}
+
+.time_countdown .theme_two span.msec {
+    color: #ffffff;
+    background-color: #00bc71
+}
+
+.time_countdown .theme_three span {
+    color: #fff;
+    background-color: #555
+}
+
+.time_countdown .theme_three span.msec {
+    color: #fff;
+    background-color: #F66210
+}

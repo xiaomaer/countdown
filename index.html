@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>倒计时组件使用</title>
+    <link rel="stylesheet" href="countdown.css"/>
+</head>
+<body style="background: #f2f2f2;">
+<div id="timer1"></div>
+<br>
+<div id="timer2"></div>
+<script src="countdown.js"></script>
+<script>
+    CountDown.init({
+        title: '距离倒计时结束还有',
+        end_time: '2017/08/30 10:20:30',
+        end_remind: '本场秒杀结束，等待下一场吧！'
+    }, document.getElementById('timer1'));
+    timer({
+        title: '距离倒计时结束还有',
+        end_time: '2017/08/04 10:20:30',
+        end_remind: '本场秒杀结束，等待下一场吧！'
+    }, document.getElementById('timer2'));
+</script>
+</body>
+</html>
